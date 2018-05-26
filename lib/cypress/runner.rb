@@ -1,3 +1,5 @@
+require 'open3'
+
 module Cypress
   class Runner
     def initialize(args)
